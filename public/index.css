@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(252, 252, 252);
+  color: rgb(236, 12, 12);
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
@@ -9,6 +9,7 @@ h2 {
   font-family: sans-serif;
   font-weight: bold;
   font-size: larger;
+  text-align: center;
 }
 
 p {

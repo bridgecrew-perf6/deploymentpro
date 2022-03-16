@@ -24,13 +24,13 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../public"));
 });
 
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
+// app.get("/", function (req, res) {
+//   res.sendFile(path.join(__dirname, "../public/index.html"));
+// });
 
-app.get("/styles", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.css"));
-});
+// app.get("/styles", function (req, res) {
+//   res.sendFile(path.join(__dirname, "../public/index.css"));
+// });
 
 //port
 const port = process.env.PORT || 4005;

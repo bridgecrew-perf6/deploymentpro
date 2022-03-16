@@ -11,7 +11,7 @@ h2 {
 }
 
 p {
-  color: rgb(228, 18, 18);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: x-large;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 img {
-  width: 500px;
+  width: 800px;
   height: 500px;
   margin-left: 40vw;
   margin-right: 40vw;

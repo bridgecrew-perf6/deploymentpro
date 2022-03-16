@@ -6,15 +6,16 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../index.html"));
-});
-
 app.use(express.static(path.join(__dirname, "../public")));
+
 app.use(
   "/image/bookstore",
   express.static(path.join(__dirname, "../image/bookstore.jpg"))
 );
+
+// app.get("/", function (req, res) {
+//   res.sendFile(path.join(__dirname, "../index.html"));
+// });
 
 const port = process.env.PORT || 4005;
 app.listen(port, () => {

@@ -32,6 +32,10 @@ app.get("/styles", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/index.css"));
 });
 
+app.get("/image/bookstore", function (req, res) {
+  res.sendFile(path.join(__dirname, "../image/bookstore.jpg"));
+});
+
 //port
 const port = process.env.PORT || 4005;
 app.listen(port, () => {

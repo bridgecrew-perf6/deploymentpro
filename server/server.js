@@ -13,6 +13,14 @@ app.use(
   "/image/bookstore",
   express.static(path.join(__dirname, "../image/bookstore.jpg"))
 );
+app.use(
+  "/image/bookstore1",
+  express.static(path.join(__dirname, "../image/book2.jpg"))
+);
+app.use(
+  "/image/bookstore2",
+  express.static(path.join(__dirname, "../image/book3.jpg"))
+);
 
 //Endpoints
 

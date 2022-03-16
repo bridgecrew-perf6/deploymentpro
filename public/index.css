@@ -1,7 +1,8 @@
 h1 {
-  color: blue;
+  color: rgb(252, 252, 252);
   font-family: sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 h2 {
   color: rgb(15, 236, 89);
@@ -12,22 +13,22 @@ h2 {
 p {
   color: rgb(228, 18, 18);
   text-align: center;
-  font-size: large;
+  font-size: x-large;
 }
 
 body {
-  background-color: rgb(24, 21, 214);
+  background-color: rgb(163, 162, 190);
 }
 
 img {
-  width: 60px;
-  height: 60px;
+  width: 500px;
+  height: 500px;
   margin-left: 40vw;
   margin-right: 40vw;
   border-radius: 8px;
 }
 button {
-  background-color: #4caf50;
+  background-color: #146bce;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -37,4 +38,5 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 8px;
 }

@@ -41,11 +41,11 @@ app.get("/image/bookstore", function (req, res) {
 });
 
 app.get("/image/bookstore1", function (req, res) {
-  res.sendFile(path.join(__dirname, "../image/book1.jpg"));
+  res.sendFile(path.join(__dirname, "../image/book2.jpg"));
 });
 
 app.get("/image/bookstore2", function (req, res) {
-  res.sendFile(path.join(__dirname, "../image/book2.jpg"));
+  res.sendFile(path.join(__dirname, "../image/book3.jpg"));
 });
 //port
 const port = process.env.PORT || 4005;

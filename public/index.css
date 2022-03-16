@@ -5,9 +5,10 @@ h1 {
   text-align: center;
 }
 h2 {
-  color: rgb(15, 236, 89);
+  color: rgb(40, 71, 212);
   font-family: sans-serif;
   font-weight: bold;
+  font-size: larger;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 }
 
 body {
-  background-color: rgb(163, 162, 190);
+  background-color: rgb(219, 208, 50);
 }
 
 img {

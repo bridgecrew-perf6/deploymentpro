@@ -10,6 +10,11 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../index.html"));
 });
 
+app.use(
+  "/image/bookstore",
+  express.static(path.join(__dirname, "../image/bookstore.jpg"))
+);
+
 const port = process.env.PORT || 4005;
 app.listen(port, () => {
   console.log(`It is running on port ${port}`);

@@ -6,17 +6,33 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "../public")));
+//Middleware
+// app.use(express.static(path.join(__dirname, "../public")));
 
-app.use(
-  "/image/bookstore",
-  express.static(path.join(__dirname, "../image/bookstore.jpg"))
-);
+// app.use(
+//   "/image/bookstore",
+//   express.static(path.join(__dirname, "../image/bookstore.jpg"))
+// );
 
 // app.get("/", function (req, res) {
 //   res.sendFile(path.join(__dirname, "../index.html"));
 // });
 
+//Endpoints
+
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public"));
+});
+
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/index.html"));
+});
+
+app.get("/styles", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/index.css"));
+});
+
+//port
 const port = process.env.PORT || 4005;
 app.listen(port, () => {
   console.log(`It is running on port ${port}`);

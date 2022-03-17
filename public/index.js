@@ -1,4 +1,4 @@
 console.log("hello world ");
-let images = document.querySelector("img");
+// let images = document.querySelector("img");
 
-images.addEventListener("click", console.log("mouseover"));
+// images.addEventListener("click", cb);
